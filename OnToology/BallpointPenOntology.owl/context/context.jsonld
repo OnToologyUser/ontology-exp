@@ -1,0 +1,132 @@
+{
+  "@context" : {
+    "DisposableBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/DisposableBallpointPen"
+    },
+    "RollerballPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/RollerballPen"
+    },
+    "BlindCap" : {
+      "@id" : "http://example.com/BallpointPenOntology/BlindCap"
+    },
+    "hasFeature" : {
+      "@id" : "http://example.com/BallpointPenOntology/hasFeature",
+      "@type" : "@id"
+    },
+    "PenMake" : {
+      "@id" : "http://example.com/BallpointPenOntology/PenMake"
+    },
+    "PenCharacteristic" : {
+      "@id" : "http://example.com/BallpointPenOntology/PenCharacteristic"
+    },
+    "QuillPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/QuillPen"
+    },
+    "Pen" : {
+      "@id" : "http://example.com/BallpointPenOntology/Pen"
+    },
+    "DesignerBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/DesignerBallpointPen"
+    },
+    "BicCristal" : {
+      "@id" : "http://example.com/BallpointPenOntology/BicCristal"
+    },
+    "isFeatureOf" : {
+      "@id" : "http://example.com/BallpointPenOntology/isFeatureOf",
+      "@type" : "@id"
+    },
+    "UpperPenBody" : {
+      "@id" : "http://example.com/BallpointPenOntology/UpperPenBody"
+    },
+    "BallPoint" : {
+      "@id" : "http://example.com/BallpointPenOntology/BallPoint"
+    },
+    "InkReservoir" : {
+      "@id" : "http://example.com/BallpointPenOntology/InkReservoir"
+    },
+    "Socket" : {
+      "@id" : "http://example.com/BallpointPenOntology/Socket"
+    },
+    "ErasableInkBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/ErasableInkBallpointPen"
+    },
+    "isComponentOf" : {
+      "@id" : "http://example.com/BallpointPenOntology/isComponentOf",
+      "@type" : "@id"
+    },
+    "SinglePenBody" : {
+      "@id" : "http://example.com/BallpointPenOntology/SinglePenBody"
+    },
+    "PenComponent" : {
+      "@id" : "http://example.com/BallpointPenOntology/PenComponent"
+    },
+    "RefillableBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/RefillableBallpointPen"
+    },
+    "ChunkyBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/ChunkyBallpointPen"
+    },
+    "hasMake" : {
+      "@id" : "http://example.com/BallpointPenOntology/hasMake",
+      "@type" : "@id"
+    },
+    "RetractableMechanism" : {
+      "@id" : "http://example.com/BallpointPenOntology/RetractableMechanism"
+    },
+    "hasCharacteristic" : {
+      "@id" : "http://example.com/BallpointPenOntology/hasCharacteristic",
+      "@type" : "@id"
+    },
+    "WritingImplement" : {
+      "@id" : "http://example.com/BallpointPenOntology/WritingImplement"
+    },
+    "BallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/BallpointPen"
+    },
+    "MultiColourBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/MultiColourBallpointPen"
+    },
+    "Cap" : {
+      "@id" : "http://example.com/BallpointPenOntology/Cap"
+    },
+    "CustomBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/CustomBallpointPen"
+    },
+    "FisherSpacePen" : {
+      "@id" : "http://example.com/BallpointPenOntology/FisherSpacePen"
+    },
+    "hasWidestDiameterInMillimetres" : {
+      "@id" : "http://example.com/BallpointPenOntology/hasWidestDiameterInMillimetres",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "LowerPenBody" : {
+      "@id" : "http://example.com/BallpointPenOntology/LowerPenBody"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasComponent" : {
+      "@id" : "http://example.com/BallpointPenOntology/hasComponent",
+      "@type" : "@id"
+    },
+    "RetractableBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/RetractableBallpointPen"
+    },
+    "SpacePen" : {
+      "@id" : "http://example.com/BallpointPenOntology/SpacePen"
+    },
+    "SlimBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/SlimBallpointPen"
+    },
+    "isCharacteristicOf" : {
+      "@id" : "http://example.com/BallpointPenOntology/isCharacteristicOf",
+      "@type" : "@id"
+    },
+    "MyInnovativeBallpointPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/MyInnovativeBallpointPen"
+    },
+    "FountainPen" : {
+      "@id" : "http://example.com/BallpointPenOntology/FountainPen"
+    }
+  }
+}

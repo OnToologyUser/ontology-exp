@@ -1,0 +1,21 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "BallpointPenOntology:InkReservoir" "BallpointPenOntology:MyInnovativeBallpointPen" "BallpointPenOntology:FountainPen" "BallpointPenOntology:Socket" "BallpointPenOntology:BlindCap" "BallpointPenOntology:BicCristal" "BallpointPenOntology:PenComponent" "BallpointPenOntology:WritingImplement" "BallpointPenOntology:UpperPenBody" "BallpointPenOntology:QuillPen" "BallpointPenOntology:RetractableMechanism" "BallpointPenOntology:Cap" "BallpointPenOntology:SinglePenBody" "BallpointPenOntology:BallpointPen" "BallpointPenOntology:LowerPenBody" "BallpointPenOntology:BallPoint" "BallpointPenOntology:Pen" ; /*classes style*/
+	"BallpointPenOntology:BicCristal" -> "BallpointPenOntology:BallpointPen" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:BallpointPen" -> "BallpointPenOntology:Pen" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:MyInnovativeBallpointPen" -> "BallpointPenOntology:BallpointPen" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:QuillPen" -> "BallpointPenOntology:Pen" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:Cap" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:InkReservoir" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:UpperPenBody" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:Pen" -> "BallpointPenOntology:WritingImplement" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:FountainPen" -> "BallpointPenOntology:Pen" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:SinglePenBody" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:BallPoint" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:LowerPenBody" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:RetractableMechanism" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:BlindCap" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+	"BallpointPenOntology:Socket" -> "BallpointPenOntology:PenComponent" [ label = "rdfs:subClassOf" ];
+
+}
